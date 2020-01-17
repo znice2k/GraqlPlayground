@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D874EB7D23D22C3C0075152F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB7C23D22C3C0075152F /* AppDelegate.swift */; };
+		D874EB7F23D22C3C0075152F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB7E23D22C3C0075152F /* SceneDelegate.swift */; };
+		D874EB8123D22C3C0075152F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB8023D22C3C0075152F /* ContentView.swift */; };
+		D874EB8323D22C400075152F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D874EB8223D22C400075152F /* Assets.xcassets */; };
+		D874EB8623D22C400075152F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D874EB8523D22C400075152F /* Preview Assets.xcassets */; };
+		D874EB8923D22C400075152F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874EB8723D22C400075152F /* LaunchScreen.storyboard */; };
+		D874EB9423D22C400075152F /* GraqlPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB9323D22C400075152F /* GraqlPlaygroundTests.swift */; };
+		D874EB9F23D22C400075152F /* GraqlPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB9E23D22C400075152F /* GraqlPlaygroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D874EB9023D22C400075152F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D874EB7123D22C3C0075152F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D874EB7823D22C3C0075152F;
+			remoteInfo = GraqlPlayground;
+		};
+		D874EB9B23D22C400075152F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D874EB7123D22C3C0075152F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D874EB7823D22C3C0075152F;
+			remoteInfo = GraqlPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D874EB7923D22C3C0075152F /* GraqlPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraqlPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874EB7C23D22C3C0075152F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D874EB7E23D22C3C0075152F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D874EB8023D22C3C0075152F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D874EB8223D22C400075152F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D874EB8523D22C400075152F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D874EB8823D22C400075152F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D874EB8A23D22C400075152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D874EB8F23D22C400075152F /* GraqlPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraqlPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874EB9323D22C400075152F /* GraqlPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraqlPlaygroundTests.swift; sourceTree = "<group>"; };
+		D874EB9523D22C400075152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D874EB9A23D22C400075152F /* GraqlPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraqlPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874EB9E23D22C400075152F /* GraqlPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraqlPlaygroundUITests.swift; sourceTree = "<group>"; };
+		D874EBA023D22C400075152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D874EB7623D22C3C0075152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874EB8C23D22C400075152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874EB9723D22C400075152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D874EB7023D22C3C0075152F = {
+			isa = PBXGroup;
+			children = (
+				D874EB7B23D22C3C0075152F /* GraqlPlayground */,
+				D874EB9223D22C400075152F /* GraqlPlaygroundTests */,
+				D874EB9D23D22C400075152F /* GraqlPlaygroundUITests */,
+				D874EB7A23D22C3C0075152F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D874EB7A23D22C3C0075152F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874EB7923D22C3C0075152F /* GraqlPlayground.app */,
+				D874EB8F23D22C400075152F /* GraqlPlaygroundTests.xctest */,
+				D874EB9A23D22C400075152F /* GraqlPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D874EB7B23D22C3C0075152F /* GraqlPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				D874EB7C23D22C3C0075152F /* AppDelegate.swift */,
+				D874EB7E23D22C3C0075152F /* SceneDelegate.swift */,
+				D874EB8023D22C3C0075152F /* ContentView.swift */,
+				D874EB8223D22C400075152F /* Assets.xcassets */,
+				D874EB8723D22C400075152F /* LaunchScreen.storyboard */,
+				D874EB8A23D22C400075152F /* Info.plist */,
+				D874EB8423D22C400075152F /* Preview Content */,
+			);
+			path = GraqlPlayground;
+			sourceTree = "<group>";
+		};
+		D874EB8423D22C400075152F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D874EB8523D22C400075152F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D874EB9223D22C400075152F /* GraqlPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				D874EB9323D22C400075152F /* GraqlPlaygroundTests.swift */,
+				D874EB9523D22C400075152F /* Info.plist */,
+			);
+			path = GraqlPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		D874EB9D23D22C400075152F /* GraqlPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D874EB9E23D22C400075152F /* GraqlPlaygroundUITests.swift */,
+				D874EBA023D22C400075152F /* Info.plist */,
+			);
+			path = GraqlPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D874EB7823D22C3C0075152F /* GraqlPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874EBA323D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlayground" */;
+			buildPhases = (
+				D874EB7523D22C3C0075152F /* Sources */,
+				D874EB7623D22C3C0075152F /* Frameworks */,
+				D874EB7723D22C3C0075152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraqlPlayground;
+			productName = GraqlPlayground;
+			productReference = D874EB7923D22C3C0075152F /* GraqlPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D874EB8E23D22C400075152F /* GraqlPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874EBA623D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlaygroundTests" */;
+			buildPhases = (
+				D874EB8B23D22C400075152F /* Sources */,
+				D874EB8C23D22C400075152F /* Frameworks */,
+				D874EB8D23D22C400075152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D874EB9123D22C400075152F /* PBXTargetDependency */,
+			);
+			name = GraqlPlaygroundTests;
+			productName = GraqlPlaygroundTests;
+			productReference = D874EB8F23D22C400075152F /* GraqlPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D874EB9923D22C400075152F /* GraqlPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874EBA923D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlaygroundUITests" */;
+			buildPhases = (
+				D874EB9623D22C400075152F /* Sources */,
+				D874EB9723D22C400075152F /* Frameworks */,
+				D874EB9823D22C400075152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D874EB9C23D22C400075152F /* PBXTargetDependency */,
+			);
+			name = GraqlPlaygroundUITests;
+			productName = GraqlPlaygroundUITests;
+			productReference = D874EB9A23D22C400075152F /* GraqlPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D874EB7123D22C3C0075152F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alexander Nikiforow";
+				TargetAttributes = {
+					D874EB7823D22C3C0075152F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D874EB8E23D22C400075152F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D874EB7823D22C3C0075152F;
+					};
+					D874EB9923D22C400075152F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D874EB7823D22C3C0075152F;
+					};
+				};
+			};
+			buildConfigurationList = D874EB7423D22C3C0075152F /* Build configuration list for PBXProject "GraqlPlayground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D874EB7023D22C3C0075152F;
+			productRefGroup = D874EB7A23D22C3C0075152F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D874EB7823D22C3C0075152F /* GraqlPlayground */,
+				D874EB8E23D22C400075152F /* GraqlPlaygroundTests */,
+				D874EB9923D22C400075152F /* GraqlPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D874EB7723D22C3C0075152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874EB8923D22C400075152F /* LaunchScreen.storyboard in Resources */,
+				D874EB8623D22C400075152F /* Preview Assets.xcassets in Resources */,
+				D874EB8323D22C400075152F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874EB8D23D22C400075152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874EB9823D22C400075152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D874EB7523D22C3C0075152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874EB7D23D22C3C0075152F /* AppDelegate.swift in Sources */,
+				D874EB7F23D22C3C0075152F /* SceneDelegate.swift in Sources */,
+				D874EB8123D22C3C0075152F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874EB8B23D22C400075152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874EB9423D22C400075152F /* GraqlPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874EB9623D22C400075152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874EB9F23D22C400075152F /* GraqlPlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D874EB9123D22C400075152F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D874EB7823D22C3C0075152F /* GraqlPlayground */;
+			targetProxy = D874EB9023D22C400075152F /* PBXContainerItemProxy */;
+		};
+		D874EB9C23D22C400075152F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D874EB7823D22C3C0075152F /* GraqlPlayground */;
+			targetProxy = D874EB9B23D22C400075152F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D874EB8723D22C400075152F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D874EB8823D22C400075152F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D874EBA123D22C400075152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D874EBA223D22C400075152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D874EBA423D22C400075152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GraqlPlayground/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GraqlPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scotty.GraqlPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D874EBA523D22C400075152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GraqlPlayground/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GraqlPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scotty.GraqlPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D874EBA723D22C400075152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraqlPlaygroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scotty.GraqlPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraqlPlayground.app/GraqlPlayground";
+			};
+			name = Debug;
+		};
+		D874EBA823D22C400075152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraqlPlaygroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scotty.GraqlPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraqlPlayground.app/GraqlPlayground";
+			};
+			name = Release;
+		};
+		D874EBAA23D22C400075152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraqlPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scotty.GraqlPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraqlPlayground;
+			};
+			name = Debug;
+		};
+		D874EBAB23D22C400075152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraqlPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Scotty.GraqlPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraqlPlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D874EB7423D22C3C0075152F /* Build configuration list for PBXProject "GraqlPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874EBA123D22C400075152F /* Debug */,
+				D874EBA223D22C400075152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874EBA323D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874EBA423D22C400075152F /* Debug */,
+				D874EBA523D22C400075152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874EBA623D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874EBA723D22C400075152F /* Debug */,
+				D874EBA823D22C400075152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874EBA923D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874EBAA23D22C400075152F /* Debug */,
+				D874EBAB23D22C400075152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D874EB7123D22C3C0075152F /* Project object */;
+}
