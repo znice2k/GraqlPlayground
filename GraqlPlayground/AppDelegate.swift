@@ -7,6 +7,16 @@
 //
 
 import UIKit
+import Apollo
+
+
+
+
+var apollo : ApolloClient{
+    let url = URL(string: "http://192.168.0.58:8000")!
+    return ApolloClient(url: url)
+}
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

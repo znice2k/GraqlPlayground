@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B811A6C498DDCBC71784560 /* Pods_GraqlPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5D6E7E4AC1CBD3E23AC087 /* Pods_GraqlPlayground.framework */; };
+		32FCF72763A0A9D1371E031F /* Pods_GraqlPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D37D29B7039B7E45261B89 /* Pods_GraqlPlaygroundTests.framework */; };
+		B1A31FC5BD7D61178CF20580 /* Pods_GraqlPlayground_GraqlPlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD003908962AF03116A260D /* Pods_GraqlPlayground_GraqlPlaygroundUITests.framework */; };
 		D874EB7D23D22C3C0075152F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB7C23D22C3C0075152F /* AppDelegate.swift */; };
 		D874EB7F23D22C3C0075152F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB7E23D22C3C0075152F /* SceneDelegate.swift */; };
 		D874EB8123D22C3C0075152F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB8023D22C3C0075152F /* ContentView.swift */; };
@@ -15,6 +18,11 @@
 		D874EB8923D22C400075152F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874EB8723D22C400075152F /* LaunchScreen.storyboard */; };
 		D874EB9423D22C400075152F /* GraqlPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB9323D22C400075152F /* GraqlPlaygroundTests.swift */; };
 		D874EB9F23D22C400075152F /* GraqlPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874EB9E23D22C400075152F /* GraqlPlaygroundUITests.swift */; };
+		D874EBAE23D22D2F0075152F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = D874EBAD23D22D2F0075152F /* Apollo */; };
+		D8AC210D23D3216900876CD3 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = D8AC210C23D3216900876CD3 /* schema.json */; };
+		D8AC210F23D3233300876CD3 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = D8AC210E23D3233300876CD3 /* LaunchList.graphql */; };
+		D8AC211123D32A4C00876CD3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC211023D32A4C00876CD3 /* API.swift */; };
+		D8AC211723D35A7F00876CD3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC211623D35A7F00876CD3 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F460B85A0892F0019EF09FA /* Pods-GraqlPlayground-GraqlPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraqlPlayground-GraqlPlaygroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-GraqlPlayground-GraqlPlaygroundUITests/Pods-GraqlPlayground-GraqlPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27137B3CE6EC852DFD754001 /* Pods-GraqlPlayground-GraqlPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraqlPlayground-GraqlPlaygroundUITests.release.xcconfig"; path = "Target Support Files/Pods-GraqlPlayground-GraqlPlaygroundUITests/Pods-GraqlPlayground-GraqlPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30D37D29B7039B7E45261B89 /* Pods_GraqlPlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraqlPlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63975452C2CB23EC238207 /* Pods-GraqlPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraqlPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-GraqlPlaygroundTests/Pods-GraqlPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D5D6E7E4AC1CBD3E23AC087 /* Pods_GraqlPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraqlPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD003908962AF03116A260D /* Pods_GraqlPlayground_GraqlPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraqlPlayground_GraqlPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9712086E52B97F6C2727A4C0 /* Pods-GraqlPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraqlPlayground.debug.xcconfig"; path = "Target Support Files/Pods-GraqlPlayground/Pods-GraqlPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		A5BE2C2B370DF5F0D4314376 /* Pods-GraqlPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraqlPlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-GraqlPlaygroundTests/Pods-GraqlPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D874EB7923D22C3C0075152F /* GraqlPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraqlPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874EB7C23D22C3C0075152F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D874EB7E23D22C3C0075152F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,11 @@
 		D874EB9A23D22C400075152F /* GraqlPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraqlPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874EB9E23D22C400075152F /* GraqlPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraqlPlaygroundUITests.swift; sourceTree = "<group>"; };
 		D874EBA023D22C400075152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8AC210C23D3216900876CD3 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = GraqlPlayground/schema.json; sourceTree = SOURCE_ROOT; };
+		D8AC210E23D3233300876CD3 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
+		D8AC211023D32A4C00876CD3 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D8AC211623D35A7F00876CD3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E3CBC6BD7383C9DDA84C4571 /* Pods-GraqlPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraqlPlayground.release.xcconfig"; path = "Target Support Files/Pods-GraqlPlayground/Pods-GraqlPlayground.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D874EBAE23D22D2F0075152F /* Apollo in Frameworks */,
+				2B811A6C498DDCBC71784560 /* Pods_GraqlPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FCF72763A0A9D1371E031F /* Pods_GraqlPlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A31FC5BD7D61178CF20580 /* Pods_GraqlPlayground_GraqlPlaygroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46C3F2E747EDD45C09247D88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9712086E52B97F6C2727A4C0 /* Pods-GraqlPlayground.debug.xcconfig */,
+				E3CBC6BD7383C9DDA84C4571 /* Pods-GraqlPlayground.release.xcconfig */,
+				0F460B85A0892F0019EF09FA /* Pods-GraqlPlayground-GraqlPlaygroundUITests.debug.xcconfig */,
+				27137B3CE6EC852DFD754001 /* Pods-GraqlPlayground-GraqlPlaygroundUITests.release.xcconfig */,
+				A5BE2C2B370DF5F0D4314376 /* Pods-GraqlPlaygroundTests.debug.xcconfig */,
+				6B63975452C2CB23EC238207 /* Pods-GraqlPlaygroundTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDC0A117B8CF313399FE6C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D6E7E4AC1CBD3E23AC087 /* Pods_GraqlPlayground.framework */,
+				8CD003908962AF03116A260D /* Pods_GraqlPlayground_GraqlPlaygroundUITests.framework */,
+				30D37D29B7039B7E45261B89 /* Pods_GraqlPlaygroundTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D874EB7023D22C3C0075152F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				D874EB9223D22C400075152F /* GraqlPlaygroundTests */,
 				D874EB9D23D22C400075152F /* GraqlPlaygroundUITests */,
 				D874EB7A23D22C3C0075152F /* Products */,
+				46C3F2E747EDD45C09247D88 /* Pods */,
+				CDC0A117B8CF313399FE6C1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +149,9 @@
 		D874EB7B23D22C3C0075152F /* GraqlPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				D8AC211023D32A4C00876CD3 /* API.swift */,
+				D8AC210C23D3216900876CD3 /* schema.json */,
+				D874EBB623D239FD0075152F /* Apollo Target Folder */,
 				D874EB7C23D22C3C0075152F /* AppDelegate.swift */,
 				D874EB7E23D22C3C0075152F /* SceneDelegate.swift */,
 				D874EB8023D22C3C0075152F /* ContentView.swift */,
@@ -106,6 +159,8 @@
 				D874EB8723D22C400075152F /* LaunchScreen.storyboard */,
 				D874EB8A23D22C400075152F /* Info.plist */,
 				D874EB8423D22C400075152F /* Preview Content */,
+				D8AC210E23D3233300876CD3 /* LaunchList.graphql */,
+				D8AC211623D35A7F00876CD3 /* Network.swift */,
 			);
 			path = GraqlPlayground;
 			sourceTree = "<group>";
@@ -136,6 +191,13 @@
 			path = GraqlPlaygroundUITests;
 			sourceTree = "<group>";
 		};
+		D874EBB623D239FD0075152F /* Apollo Target Folder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Apollo Target Folder";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,15 +205,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D874EBA323D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlayground" */;
 			buildPhases = (
+				F3889A3AB16F895513EAC4BD /* [CP] Check Pods Manifest.lock */,
+				D874EBB223D2347C0075152F /* Generate Apollo GraphQL API */,
 				D874EB7523D22C3C0075152F /* Sources */,
 				D874EB7623D22C3C0075152F /* Frameworks */,
 				D874EB7723D22C3C0075152F /* Resources */,
+				D541CAAB5267393379736781 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GraqlPlayground;
+			packageProductDependencies = (
+				D874EBAD23D22D2F0075152F /* Apollo */,
+			);
 			productName = GraqlPlayground;
 			productReference = D874EB7923D22C3C0075152F /* GraqlPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D874EBA623D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlaygroundTests" */;
 			buildPhases = (
+				CF18B5F9F5CA89ABC3E40AF8 /* [CP] Check Pods Manifest.lock */,
 				D874EB8B23D22C400075152F /* Sources */,
 				D874EB8C23D22C400075152F /* Frameworks */,
 				D874EB8D23D22C400075152F /* Resources */,
@@ -178,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D874EBA923D22C400075152F /* Build configuration list for PBXNativeTarget "GraqlPlaygroundUITests" */;
 			buildPhases = (
+				A50E1C76F6F7B81F3A1619A8 /* [CP] Check Pods Manifest.lock */,
 				D874EB9623D22C400075152F /* Sources */,
 				D874EB9723D22C400075152F /* Frameworks */,
 				D874EB9823D22C400075152F /* Resources */,
+				D3372CFF2D76F1B3281F12D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +295,9 @@
 				Base,
 			);
 			mainGroup = D874EB7023D22C3C0075152F;
+			packageReferences = (
+				D874EBAC23D22D2F0075152F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = D874EB7A23D22C3C0075152F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,8 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D874EB8923D22C400075152F /* LaunchScreen.storyboard in Resources */,
+				D8AC210D23D3216900876CD3 /* schema.json in Resources */,
 				D874EB8623D22C400075152F /* Preview Assets.xcassets in Resources */,
 				D874EB8323D22C400075152F /* Assets.xcassets in Resources */,
+				D8AC210F23D3233300876CD3 /* LaunchList.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,13 +338,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A50E1C76F6F7B81F3A1619A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraqlPlayground-GraqlPlaygroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF18B5F9F5CA89ABC3E40AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraqlPlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3372CFF2D76F1B3281F12D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraqlPlayground-GraqlPlaygroundUITests/Pods-GraqlPlayground-GraqlPlaygroundUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraqlPlayground-GraqlPlaygroundUITests/Pods-GraqlPlayground-GraqlPlaygroundUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraqlPlayground-GraqlPlaygroundUITests/Pods-GraqlPlayground-GraqlPlaygroundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D541CAAB5267393379736781 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraqlPlayground/Pods-GraqlPlayground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraqlPlayground/Pods-GraqlPlayground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraqlPlayground/Pods-GraqlPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D874EBB223D2347C0075152F /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/newInputFile",
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "  # Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\n  DERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\n  while ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n    if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n      echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n      exit 1\n    fi\n\n    DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\n  done\n\n  # Grab a reference to the directory where scripts are checked out\n  SCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\n  if [ -z \"${SCRIPT_PATH}\" ]; then\n      echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n      exit 1\n  fi\n\n  cd \"${SRCROOT}/${TARGET_NAME}\"\n  \"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+		F3889A3AB16F895513EAC4BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraqlPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D874EB7523D22C3C0075152F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AC211723D35A7F00876CD3 /* Network.swift in Sources */,
 				D874EB7D23D22C3C0075152F /* AppDelegate.swift in Sources */,
 				D874EB7F23D22C3C0075152F /* SceneDelegate.swift in Sources */,
+				D8AC211123D32A4C00876CD3 /* API.swift in Sources */,
 				D874EB8123D22C3C0075152F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +632,7 @@
 		};
 		D874EBA423D22C400075152F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9712086E52B97F6C2727A4C0 /* Pods-GraqlPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +652,7 @@
 		};
 		D874EBA523D22C400075152F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CBC6BD7383C9DDA84C4571 /* Pods-GraqlPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +672,7 @@
 		};
 		D874EBA723D22C400075152F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BE2C2B370DF5F0D4314376 /* Pods-GraqlPlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +694,7 @@
 		};
 		D874EBA823D22C400075152F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B63975452C2CB23EC238207 /* Pods-GraqlPlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +716,7 @@
 		};
 		D874EBAA23D22C400075152F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F460B85A0892F0019EF09FA /* Pods-GraqlPlayground-GraqlPlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +736,7 @@
 		};
 		D874EBAB23D22C400075152F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27137B3CE6EC852DFD754001 /* Pods-GraqlPlayground-GraqlPlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D874EBAC23D22D2F0075152F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D874EBAD23D22D2F0075152F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D874EBAC23D22D2F0075152F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D874EB7123D22C3C0075152F /* Project object */;
 }
