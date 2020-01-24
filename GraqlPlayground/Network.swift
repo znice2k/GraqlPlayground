@@ -1,23 +1,23 @@
 import Foundation
 import Apollo
 
-
+/*
 class Network {
   static let shared = Network()
     
   private(set) lazy var apollo = ApolloClient(url: URL(string: "http://192.168.0.58:8000")!)
 }
 
+*/
 
-/*
 // MARK: - Singleton Wrapper
 class Network {
   static let shared = Network()
   
   // Configure the network transport to use the singleton as the delegate.
   private lazy var networkTransport = HTTPNetworkTransport(
-    url: URL(string: "http://192.168.0.58:8000")!//,
-   // delegate: self
+    url: URL(string: "http://192.168.0.58:8000")!,
+    delegate: self
   )
     
   // Use the configured network transport in your Apollo client.
@@ -80,6 +80,6 @@ extension Network: HTTPNetworkTransportTaskCompletedDelegate {
 
 // MARK: - Retry Delegate
 
-*/
+
 
 

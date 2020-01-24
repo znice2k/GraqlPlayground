@@ -1,13 +1,24 @@
-mutation Register($mobile : String!){
-  register(mobile: $mobile){
-    
+mutation SendMobile($mobile : String!){
+    register(mobile : $mobile){
     otpSent
-  }
+
+}
 }
 
-query getName{
-  rMe {
-    name
-  }
+
+
+
+
+
+query Hello {
+    hello
+}
+
+query RMe {
+    rMe {
+        name
+        gender
+        dateOfBirth
+}
 }
 

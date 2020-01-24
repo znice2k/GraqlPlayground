@@ -10,18 +10,25 @@ import UIKit
 import Apollo
 
 
+var client : ApolloClient = {
+    let url = URL(string: "https://api.siik.app/")!
+   // let url = URL(string: "https://n1kqy.sse.codesandbox.io/")!
+ 
+    return ApolloClient(networkTransport: HTTPNetworkTransport(url: url))
+    
+}()
 
 
-var apollo : ApolloClient{
-    let url = URL(string: "http://192.168.0.58:8000")!
-    return ApolloClient(url: url)
-}
+let userdefault = UserDefaults.standard
+
 
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
